@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/ariessa/apertium-eng-zlm/eng-zlm.automorf.bin' | cg-proc -w '/home/ariessa/apertium-eng-zlm/eng-zlm.rlx.bin' | apertium-tagger -g $2 '/home/ariessa/apertium-eng-zlm/eng-zlm.prob' | apertium-pretransfer| lt-proc -b '/home/ariessa/apertium-eng-zlm/eng-zlm.autobil.bin' 

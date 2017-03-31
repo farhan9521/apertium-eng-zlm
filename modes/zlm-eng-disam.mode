@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/ariessa/apertium-eng-zlm/zlm-eng.automorf.bin' | cg-proc -w -t '/home/ariessa/apertium-eng-zlm/zlm-eng.rlx.bin' 
