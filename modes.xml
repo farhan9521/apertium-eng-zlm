@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- eng → zlm -->
+
+  <mode name="eng-zlm" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-zlm.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-zlm.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-zlm.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-zlm.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="eng-zlm.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-zlm.eng-zlm.t1x"/>
+        <file name="eng-zlm.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-zlm.eng-zlm.t2x"/>
+        <file name="eng-zlm.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-zlm.eng-zlm.t3x"/>
+        <file name="eng-zlm.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-zlm.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="eng-zlm.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- zlm → eng -->
+
+  <mode name="zlm-eng" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zlm-eng.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="zlm-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zlm-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zlm-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zlm-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-zlm.zlm-eng.t1x"/>
+        <file name="zlm-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-zlm.zlm-eng.t2x"/>
+        <file name="zlm-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-zlm.zlm-eng.t3x"/>
+        <file name="zlm-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="zlm-eng.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="zlm-eng.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+

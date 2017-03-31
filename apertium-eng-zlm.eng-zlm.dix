@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="Noun"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+	<!-- Affixes -->
+    <sdef n="ber-an"/>
+    <sdef n="ber-kan"/>
+    <sdef n="ber"/>
+    <sdef n="kan"/>
+    <sdef n="ke-an"/>
+    <sdef n="ke"/>
+    <sdef n="pe-an"/>
+    <sdef n="pe"/>
+    <sdef n="peN-an"/>
+    <sdef n="peN"/>
+    <sdef n="per-an"/>
+    <sdef n="per-i"/>
+    <sdef n="per-kan"/>
+    <sdef n="per"/>
+    <sdef n="san"/>
+    <sdef n="se"/>
+    <sdef n="si"/>
+    <sdef n="ter"/>
+
+    <sdef n="kah"/>
+    <sdef n="pun"/>
+    <sdef n="nya"/>
+
+	<sdef n="lquest"/> 
+	<sdef n="percent"/>
+	<sdef n="part"/>
+	<sdef n="tn"/>
+	<sdef n="subst"/>
+	<sdef n="actio"/>
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+	<section id="main" type="standard">
+      <!-- Define entries within <e> here. -->
+		<e><p><l>house<s n="n"/><s n="sg"/></l><r>rumah<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/><s n="sg"/></r></p></e>
+ 		<e><p><l>dog<s n="n"/><s n="sg"/></l><r>anjing<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>cat<s n="n"/><s n="sg"/></l><r>kucing<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>tree<s n="n"/><s n="sg"/></l><r>pokok<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>head<s n="n"/><s n="sg"/></l><r>kepala<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>cold<s n="adj"/><s n="sint"/></l><r>sejuk<s n="adj"/></r></p></e>
+		<e><p><l>very<s n="adv"/></l><r>sangat<s n="adv"/></r></p></e>
+		<e><p><l>weather<s n="n"/><s n="sg"/></l><r>cuaca<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>outside<s n="n"/><s n="sg"/></l><r>luar<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>then<s n="cnjadv"/></l><r>kemudian<s n="adv"/></r></p></e>
+		<e><p><l>together<s n="adj"/></l><r>bersama<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
+		<e><p><l>garden<s n="n"/><s n="sg"/></l><r>kebun<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>yesterday<s n="n"/><s n="sg"/></l><r>semalam<s n="adv"/></r></p></e>
+		<e><p><l>nice<s n="adj"/><s n="sint"/></l><r>baik<s n="adj"/></r></p></e>
+		<e><p><l>where<s n="adv"/><s n="itg"/></l><r>di manakah<s n="adv"/><s n="itg"/></r></p></e>
+		<e><p><l>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></l><r>ialah<s n="part"/></r></p></e>
+		<e><p><l>little<s n="adj"/></l><r>kecil<s n="adj"/></r></p></e>
+		<e><p><l>small<s n="adj"/><s n="sint"/></l><r>kecil<s n="adj"/></r></p></e>
+		<e><p><l>also<s n="adv"/></l><r>juga<s n="adv"/></r></p></e>
+		<e><p><l>now<s n="adv"/></l><r>sekarang<s n="adv"/></r></p></e>
+		<e><p><l>with<s n="pr"/></l><r>dengan<s n="pr"/></r></p></e>
+		<e><p><l>happy<s n="adj"/><s n="sint"/></l><r>gembira<s n="adv"/></r></p></e>
+		<e><p><l>no<s n="det"/><s n="ind"/><s n="sp"/></l><r>tidak<s n="adv"/></r></p></e>
+		<e><p><l>but<s n="cnjcoo"/></l><r>tetapi<s n="cnjcoo"/></r></p></e>
+		<e><p><l>mother<s n="n"/><s n="sg"/></l><r>ibu<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>through<s n="pr"/></l><r>melalui<s n="vblex"/><s n="actv"/><s n="si"/></r></p></e>
+		<e><p><l>window<s n="n"/><s n="sg"/></l><r>tingkap<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>and<s n="cnjcoo"/></l><r>dan<s n="cnjcoo"/></r></p></e>
+		<e><p><l>big<s n="adj"/><s n="sint"/></l><r>besar<s n="adj"/></r></p></e>
+		<e><p><l>boy<s n="n"/><s n="sg"/></l><r>lelaki<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>girl<s n="n"/><s n="sg"/></l><r>perempuan<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>you<s n="n"/><s n="sg"/></l><r>anda<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>why<s n="n"/><s n="sg"/></l><r>kenapa<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>game<s n="n"/><s n="sg"/></l><r>permainan<s n="vblex"/><s n="subst"/><s n="per-an"/><s n="sg"/></r></p></e>
+		<e><p><l>around<s n="pr"/></l><r>sekeliling<s n="n"/><s n="attr"/><s n="se"/></r></p></e>
+		<e><p><l>answer<s n="n"/><s n="sg"/></l><r>jawapan<s n="n"/><s n="sg"/></r></p></e> <!-- none in zlm dict -->
+		<e><p><l>behind<s n="n"/><s n="sg"/></l><r>belakang<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+		<e><p><l>although<s n="cnjsub"/></l><r>walaupun<s n="cnjsub"/></r></p></e>
+		<e><p><l>probably<s n="adv"/></l><r>mungkin<s n="adv"/></r></p></e>
+		<!--<e><p><l>under<s n="pr"/></l><r>di bawah<s n="n"/><s n="sg"/></r></p></e> -->
+		<e><p><l>table<s n="n"/><s n="sg"/></l><r>meja<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>sound<s n="n"/><s n="sg"/></l><r>bunyi<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>again<s n="adv"/></l><r>lagi<s n="adv"/></r></p></e>
+		<e><p><l>bird<s n="n"/><s n="sg"/></l><r>burung<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>animal<s n="n"/><s n="sg"/></l><r>haiwan<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>another<s n="det"/><s n="ind"/><s n="sg"/></l><r>lain<s n="adj"/></r></p></e>
+		<e><p><l>hand<s n="n"/><s n="sg"/></l><r>tangan<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>time<s n="n"/><s n="sg"/></l><r>masa<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>something<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></l><r>sesuatu<s n="prn"/><s n="tn"/></r></p></e>
+		<!-- kiv the above -->
+		<e><p><l>water<s n="n"/><s n="sg"/></l><r>air<s n="n"/><s n="sg"/></r></p></e>
+		<e><p><l>still<s n="adj"/><s n="sint"/></l><r>masih<s n="adv"/></r></p></e>
+
+
+
+
+
+   </section>
+
+	<section id="regexp" type="standard">
+    	<e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+		<e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+    	<e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    	<e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    	<e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    	<e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    	<e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    	<e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    	<e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    	<e><re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
+  	</section>
+
+</dictionary>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Bilingual_dictionary
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+-->
